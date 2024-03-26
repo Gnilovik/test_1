@@ -11,6 +11,10 @@
 # elif c!="+" and c!="-" and c!="" and c!="/":
 #     print("Неверная операция")
 # elif c=="+":
+#     print(a+b)
+# elif c=="-":
+#     print(a-b)
+# elif c=="":
 #     print(a*b)
 # else:
 #     print(a/b)
