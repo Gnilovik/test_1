@@ -98,3 +98,4 @@ try:
     else:
         print('Не верно!')
 except Exception:
+    print('Формат математической операции не верный!')
