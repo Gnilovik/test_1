@@ -1,4 +1,9 @@
+# Рабочий пример
 
+# input_string = input()
+
+# a, c, b = input_string.split()
+# a = int(a)
 # b = int(b)
 
 # if b==0 and c=="/":
