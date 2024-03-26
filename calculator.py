@@ -52,27 +52,4 @@
 # ЭТО ПРАВИЛЬНЫЙ КАЛЬКУЛЯТОР 
 
 
-# not any(char in input_string for char in ['+', '-', '*', '/'])
-# input_string = input("Введите выражение (например, '3 + 5'): ")
-# if not any(char in input_string for char in ['+', '-', '', '/']):
-#     print("Не вижу цифр, я калькулятор а не блокнот")
-# else:
-#     a, c, b = input_string.strip().split()
-#     a = int(a)
-#     b = int(b)
-#     if b==0 and c=="/":
-#         print("На ноль делить нельзя!")
-#     elif a < 1 or a > 10 or b < 1 or b > 10:
-#         print("Числа должны быть от 1 до 10")
-#     elif c=="+":
-#         print(a+b)
-#     elif c=="-":
-#         print(a-b)
-#     elif c=="":
-
-try:
-    a, c, b = input('Введите числа:').split()
-    a = int(a)
-    b = int(b)
-    if 1 <= a <= 10 and 1 <= b <=10 and c == '+':
         print(a+b)
