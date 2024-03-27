@@ -9,7 +9,7 @@ def main(input_x: str) -> str:
             return a-b
         elif 1 <= a <= 10 and 1 <= b <=10 and c == '*':
             return a*b
-        elif a==0 or b==0 and c=='/':
+        elif b==0 and c=='/':
             return 'На ноль делить нельзя!'
         elif 1 <= a <= 10 and 1 <= b <=10 and c == '/':
             return a//b
